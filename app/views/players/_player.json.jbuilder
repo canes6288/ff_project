@@ -1,0 +1,2 @@
+json.extract! player, :id, :name, :string,, :last_name, :string,, :first_name, :string,, :team, :string,, :position, :string,, :school, :string,, :nerd_id, :string,, :predicted_points, :float, :created_at, :updated_at
+json.url player_url(player, format: :json)
